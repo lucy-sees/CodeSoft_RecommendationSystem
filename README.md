@@ -129,6 +129,6 @@ If you like this project, please consider giving it a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](/LICENSE) licensed.
+This project is [MIT](https://github.com/lucy-sees/CodeSoft_RecommendationSystem/blob/ec0d5d4cc2ff2343f9bdb5c68374875ff99eacd0/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
