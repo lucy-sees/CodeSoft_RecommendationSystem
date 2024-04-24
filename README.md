@@ -8,10 +8,9 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
   - [🎥 Presentation](#video-link)
-<!-- - [💻 Getting Started](#getting-started) -->
+- [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Create database](#create-database)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -29,6 +28,7 @@ A simple recommendation system that suggests movies to users based on their pref
 
 <ul>
     <li><a href="https://www.python.org/">Python</a></li>
+    <li><a href="https://jupyter.org/">Jupyter Notebook</a></li>
     <li><a href="https://streamlit.io//">Streamlit</a></li>
 </ul>
 
@@ -36,12 +36,12 @@ A simple recommendation system that suggests movies to users based on their pref
 
 - **Movie search bar**
 - **Movie titles**
-
+- **Movie posters**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Coming soon!]()
+[Live Demo Link](https://movierecommender-athe.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -51,9 +51,9 @@ A simple recommendation system that suggests movies to users based on their pref
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps: -->
+To get a local copy up and running, follow these steps:
 
 
 ### Prerequisites
@@ -70,24 +70,22 @@ Clone this repository to your desired folder:
 git clone git@github.com:lucy-sees/CodeSoft_RecommendationSystem.git
 ```
 
-<!-- ### Install
+ ### Install
 
 Install this project with:
 
-```cd CodeSoft_RecommendationSystem``` -->
+```pip install -r requirements.txt``` to install libraries, runs migrations, or compiles resources needed by the app.
 
-<!-- ```bundle install``` to install all gems used.
+```jupyter notebook movie_recommendation_system.ipynb```  to run the data processing and vectorization
 
-```rails db:create``` to create the database.
+```streamlit run app.py``` to run the app on your web-browser.
 
-```rails db:migrate``` to run the database migrations you created. -->
-<!-- 
 ### Usage
 
 To run the project, execute the following command:
 ```
-python 
-``` -->
+streamlit run app.py
+``` 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
